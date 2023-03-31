@@ -1,0 +1,59 @@
+.header{
+  background-color: #dadede;
+}
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+.nav {
+  display: flex;
+  background-color: #dadede;
+  justify-content: space-between;
+  align-items: center;
+  padding: 17px 0;
+}
+.header_btn {
+  width: 260px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Inter', sans-serif;
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 400;  
+  font-size: 24px;
+  padding: 14px 87px;
+  border-radius: 15px;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+.menu li {
+  margin: 0 60px;
+}
+.logo h2 {
+  display: flex;
+  align-items: center;
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 22px;
+  text-transform: uppercase;
+}
+.logo h2::before {
+  content: "";
+  display: block;
+  background-image: url('./img/teeth.svg');
+  width: 57px;
+  height: 71px;
+}
+.menu li {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}

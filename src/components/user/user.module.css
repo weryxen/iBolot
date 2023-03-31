@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+.user {
+  flex-direction: column;
+}
+
+.all_items {
+  display: flex;
+  justify-content: flex-end;
+  margin: 30px 0;
+}
+
+p {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.h2 {
+  font-family: "Inter";
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.item {
+  margin: 22px;
+  display: flex;
+  justify-content: space-between;
+  height: 128px;
+  width: 325px;
+  border-radius: 15px;
+  padding: 20px 30px 20px 10px;
+  background-color: #dadede;
+  align-items: center;
+}
+
+.icon {
+  text-align: left;
+}
+.title h2 {
+  font-family: "Inter";
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+  text-align: center;
+  margin: 40px 0;
+}

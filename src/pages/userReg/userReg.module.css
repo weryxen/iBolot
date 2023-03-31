@@ -1,0 +1,49 @@
+.container {
+  max-width: 1120px;
+  margin: 0 auto;
+}
+.title h2 {
+  font-family: "Inter";
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+  text-align: center;
+  padding: 90px 0 40px 0;
+}
+
+.input input {
+  width: 340px;
+  height: 50px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  width: 100%;
+}
+.inputs_container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 715px;
+  margin: 0 auto;
+}
+
+.left_column {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+
+.right_column {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+
+.input {
+  margin-bottom: 20px;
+}
+
+.input p {
+  margin-bottom: 10px;
+}
+

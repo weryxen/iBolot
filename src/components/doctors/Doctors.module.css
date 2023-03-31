@@ -1,0 +1,49 @@
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.doctors{
+    margin: 75px 0 100px;
+}
+.doctors h1{
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 22px;
+    color: black;
+    text-align: center;
+}
+.cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.card{
+    width: 285px;
+    border-radius: 10px;
+    margin-top: 75px;
+}
+.card_img {
+    height: 341px;
+}
+.card_img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.doctor_name h2{
+    font-family:Inter, serif;
+    font-weight: 500;
+    color: #000000;
+    font-size: 25px;
+    line-height: 31px;
+}
+.doctor_profession p{
+    font-family: Inter, serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: rgba(0, 0, 0, 0.7);
+    margin-top: 10px;
+}
